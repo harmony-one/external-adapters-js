@@ -4,8 +4,7 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "adapters/**",
-    "composite/**",
+    "adapters",
     "ea-factories",
     "bootstrap",
     "external-adapter",
@@ -92,7 +91,8 @@
     "paxos",
     "deribit",
     "dydx-stark",
-    "iex-cloud"
+    "iex-cloud",
+    "composite/**"
   ],
   "scripts": {
     "lint": "yarn workspaces run lint",
